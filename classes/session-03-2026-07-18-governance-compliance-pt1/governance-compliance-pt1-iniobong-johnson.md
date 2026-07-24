@@ -22,7 +22,7 @@
 
 - My key takeaway from the session is the importance of being careful when deleting a resource group or resource in Azure. A deleted resource group cannot be restored as a complete unit, and deleting it may also remove all the resources contained within it.
 
-I also learned that Azure Policy and role assignments serve different purposes. Azure Policy helps enforce organisational standards and compliance requirements, while role assignments control who can access Azure resources and what actions they are permitted to perform.
+- I also learned that Azure Policy and role assignments serve different purposes. Azure Policy helps enforce organisational standards and compliance requirements, while role assignments control who can access Azure resources and what actions they are permitted to perform.
 
 ---
 
