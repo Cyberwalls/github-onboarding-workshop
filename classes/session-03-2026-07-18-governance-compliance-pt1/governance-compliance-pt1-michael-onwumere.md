@@ -65,4 +65,4 @@ This session strengthened my understanding of Azure security governance and regu
 
 ---
 
-*Submitted by: Michael Chinonso Onwumere · GitHub: MichaelOnwumere
+* Submitted by : Michael Chinonso Onwumere · GitHub : MichaelOnwumere
