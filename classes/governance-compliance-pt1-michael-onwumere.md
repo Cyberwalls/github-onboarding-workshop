@@ -1,4 +1,4 @@
-# My Notes — Michael Onwumere
+# My Notes — Michael Chinonso Onwumere
 
 ---
 
