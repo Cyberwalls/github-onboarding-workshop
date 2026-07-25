@@ -13,17 +13,23 @@ Management Groups and Scopes: Management Groups are created at the very top leve
 Because they sit at the highest level, any security policies set here automatically apply to and control all subscriptions underneath them.
 
 Policy Compliance Effects:
+
 *Audit: Checks resources and flags them as non-compliant on the dashboard, but does not stop them from running (used in Phase 1 to *test policies without breaking things).
+
 *Deny: Blocks the creation or update of non-compliant resources and returns an error (used in Phase 2 to enforce rules).
+
 *DeployIfNotExists: Checks if a required setting or resource exists; if it is missing, Azure creates it automatically (e.g., adding diagnostic logs to a VM).
+
 *Modify: Automatically adds, updates, or removes tags or properties when a resource is created or updated.
 
 Defender for Cloud Auto-Provisioning & Standards: Defender for Cloud automatically deploys three key monitoring tools (Azure Monitor Agent, Defender for Endpoint, and Vulnerability Assessment). It measures your environment against security standards like MCSB, NIST SP 800-53, ISO 27001, and PCI DSS.
 
-Fixing Security Issues: Security recommendations can be fixed automatically using the "Fix" button or Policy Remediation Tasks. If an issue requires a manual decision, Governance Rules assign it to a resource owner. If a risk is accepted, an Exemption (Waiver or Mitigated control) is applied.
+Fixing Security Issues: Security recommendations can be fixed automatically using the "Fix" button or Policy Remediation Tasks. If an issue requires a manual decision, Governance Rules assign it to a resource owner. 
+If a risk is accepted, an Exemption (Waiver or Mitigated control) is applied.
 
 Portals & Permissions:
 *Azure Portal: Used to set up and manage policies (requires Owner or Policy Contributor roles).
+
 *Defender Portal: Used to track compliance scores and monitoring details (requires at least the Reader role—Security Reader alone is not enough).
 
 Three Components of Access Assignment: Setting up access or policies requires defining three things: the Principal (who gets access), the Role Definition (what they can do), and the Scope (where it applies).
