@@ -13,6 +13,7 @@
       "pre-bootcamp-onboarding-Abdulazeez.Ademola Yinus (1).md",
       "pre-bootcamp-onboarding-Abdulrahman-Musa.md",
       "pre-bootcamp-onboarding-Abel-Bitrus.md",
+      "pre-bootcamp-onboarding-Abiola Habeeb.md",
       "pre-bootcamp-onboarding-Abowaba-Adekunle-template.md",
       "pre-bootcamp-onboarding-Adedayo Babafemi Ayinde.md",
       "pre-bootcamp-onboarding-Adeola-Ajiboso-template.md",
@@ -34,6 +35,7 @@
       "pre-bootcamp-onboarding-Folaranmi-Abolade-Felix.md",
       "pre-bootcamp-onboarding-Gabriel Uchechukwu Gabriel.md",
       "pre-bootcamp-onboarding-George-Ukato.md",
+      "pre-bootcamp-onboarding-Ibrahim Bolaji-.md",
       "pre-bootcamp-onboarding-Idowu-Abdulganeey-Olawale.md",
       "pre-bootcamp-onboarding-Ifeanyichukwu-Uche.md",
       "pre-bootcamp-onboarding-Imaobong Uwah.md",
@@ -62,6 +64,7 @@
       "pre-bootcamp-onboarding-Taiwo_Durodola-Tunde.md",
       "pre-bootcamp-onboarding-Tomilola_Osukoya.md",
       "pre-bootcamp-onboarding-Uchechukwu-Azunna.md",
+      "pre-bootcamp-onboarding-ValentineMbachu.md",
       "pre-bootcamp-onboarding-Victor-Matthew-template.md",
       "pre-bootcamp-onboarding-Wallace Tudeme.md",
       "pre-bootcamp-onboarding-Yemisi Oyesainu.md",
@@ -103,6 +106,7 @@
       "microsoft-entra-Baba-Bata.md",
       "microsoft-entra-Bernard-Amoako.md",
       "microsoft-entra-Bridget-Evavoawe.md",
+      "microsoft-entra-Chinenye Joan Okoro.md",
       "microsoft-entra-David-Adama-template.md",
       "microsoft-entra-Ejike-Etolue.md",
       "microsoft-entra-Elu-Emmanuel.md",
@@ -115,6 +119,7 @@
       "microsoft-entra-Mathias-Eleluwor-template.md",
       "microsoft-entra-Michael Onwumere.md",
       "microsoft-entra-Mishael-Effiong.md",
+      "microsoft-entra-Mohammed-Asheraf-Sulemana.md",
       "microsoft-entra-Muhammed-Opeyemi-Shakiru.md",
       "microsoft-entra-Obiajuru-Echezona-Okafor.md",
       "microsoft-entra-Oduola-Ifeoluwa.md",
@@ -124,6 +129,8 @@
       "microsoft-entra-Taiwo_Durodola-Tunde.md",
       "microsoft-entra-Tomilola_Osukoya.md",
       "microsoft-entra-Tomilola_Osukoya_2.md",
+      "microsoft-entra-Victor-Matthew-template.md",
+      "microsoft-entra-abiola-habeeb.md",
       "microsoft-entra-ademola-okunaiya.md.md",
       "microsoft-entra-adeola-ajiboso.md",
       "microsoft-entra-bernanamulyowa.md",
@@ -149,6 +156,25 @@
     "status": "upcoming",
     "submissions": [
       "azure-key-vault-Bernard-Amoako.md"
+      "Arinze-Ihekweme.md",
+      "azure-key-vault- Oduola-Ifeoluwa.md",
+      "azure-key-vault-Baba-Bata-template.md",
+      "azure-key-vault-David-Adama-template.md",
+      "azure-key-vault-Elu-Emmanuel.md",
+      "azure-key-vault-Folaranmi-Abolade-Felix.md",
+      "azure-key-vault-George- Ukato.md",
+      "azure-key-vault-Marycynthia Okeke.md",
+      "azure-key-vault-Mathias-Eleluwor.md",
+      "azure-key-vault-Mohammed-Asheraf-Sulemana.md",
+      "azure-key-vault-Oroma Jemima Unufe.md",
+      "azure-key-vault-Tomilola-Osukoya.md",
+      "azure-key-vault-adeola-ajiboso.md",
+      "azure-key-vault-berna-namulyowa.md",
+      "azure-key-vault-eneh-kosisochukwu-template.md",
+      "azure-key-vault-ikechukwu-ezeonu.md",
+      "azure-key-vault-iniobong-johnson.md",
+      "azure-key-vault-michael-onwumere.md",
+      "azure-key-vault-promise-ibediogwu-ekele.md"
     ]
   },
   {
@@ -157,7 +183,12 @@
     "title": "Governance & Compliance Pt1",
     "date": "18 Jul 2026",
     "status": "upcoming",
-    "submissions": []
+    "submissions": [
+      "governance-compliance-pt1-Elu-Emmanuel.md",
+      "governance-compliance-pt1-Mathias Eleluwor-template.md",
+      "governance-compliance-pt1-Okeke-Marycynthia.md",
+      "governance-compliance-pt1-promise-ibediogwu-ekele.md"
+    ]
   },
   {
     "num": "04",

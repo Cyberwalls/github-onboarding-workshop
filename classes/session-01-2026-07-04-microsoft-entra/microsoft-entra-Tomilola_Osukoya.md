@@ -1,4 +1,4 @@
-# My Notes — [olajide samson]
+# My Notes — [EDACHE ADA PRECIOUS]
 
 ## Key Concepts I Learned
 
@@ -37,7 +37,7 @@
 
 <!-- What was most valuable to you personally from this session? -->
 
-- One thing that stood out to me is how important identity has become in cloud security. Instead of relying only on network security, organisations now protect their resources by verifying who is requesting access and under what conditions. Combining Microsoft Entra ID, Conditional Access, MFA, and PIM creates multiple layers of protection while still allowing users and administrators to work efficiently.
+-I understand how important identity has become in cloud security. Instead of relying only on network security, organisations now protect their resources by verifying who is requesting access and under what conditions. Combining Microsoft Entra ID, Conditional Access, MFA, and PIM creates multiple layers of protection while still allowing users and administrators to work efficiently.
 ---
 
 ## Questions I Still Have
@@ -57,4 +57,4 @@
 
 ---
 Microsoft Learn modules on Microsoft Entra IDa
-*Submitted by: [olajide samson] · [olajide]*
+*Submitted by: [EDACHE ADA PRECIOUS] 
