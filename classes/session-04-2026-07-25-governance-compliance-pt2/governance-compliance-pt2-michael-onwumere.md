@@ -1,4 +1,4 @@
-# My Notes — Onwumere Michael Chinonso
+# My Notes — Michael Chinonso Onwumere
 
 ## Key Concepts I Learned
 
@@ -61,4 +61,4 @@ The biggest lesson for me was that cloud security is not only about protecting r
 
 ---
 
-*Submitted by: Onwumere Michael Chinonso · @MichaelOnwumere*
+*Submitted by: Michael Chinonso Onwumere · @MichaelOnwumere*
