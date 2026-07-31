@@ -13,9 +13,10 @@
 
 <!-- Write the main ideas covered in today's session -->
 
--
--
--
+- RBAC role assignments for least privilege
+- Protect backup data with Azure Backup security
+- Implements security controls in Infrastructure as code (IaC)
+- Strengthen security posture
 
 ---
 
@@ -24,7 +25,7 @@
 <!-- Describe what you did in the lab. Include steps, commands, or screenshots descriptions -->
 
 ### What I did
-
+- No labs done yet
 
 ### What happened / Result
 
@@ -37,7 +38,9 @@
 ## My Takeaways
 
 <!-- What was most valuable to you personally from this session? -->
-
+- Least-privilege starts at applying your assignment at the right scope
+- Over assignment and excessive permission is a potential part for attacker exploits
+- RBAC roles controls access to Azure resources while Entra ID deals with directory object (users, groups or apps etc)
 
 ---
 
@@ -45,7 +48,7 @@
 
 <!-- Anything you want to follow up on or ask the mentor -->
 
--
+- None at the moment
 -
 
 ---
@@ -54,8 +57,9 @@
 
 <!-- Any links, docs, or Microsoft Learn modules you found helpful -->
 
--
+- https://www.youtube.com/watch?v=bj760qx1MSQ&t=2242s
+- https://learn.microsoft.com/en-us/training/paths/security-governance-compliance/
 
 ---
 
-*Submitted by: [Your Full Name] · [Your GitHub username]*
+*Submitted by: Elu Uchenna Emmanuel · eluemma*
