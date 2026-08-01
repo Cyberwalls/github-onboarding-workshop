@@ -1,52 +1,52 @@
-# My Notes — [REPLACE WITH YOUR FULL NAME]
-
-> **How to use this file:**
-> 1. **Download** this file to your computer — click the **Raw** button on GitHub, then right-click and *Save As*, OR click the download icon at the top-right of the file view
-> 2. **Rename** the downloaded file — replace `yourname` with your actual first and last name in lowercase, separated by hyphens, e.g. `microsoft-entra-oyimafu-emmanuel.md`
-> 3. **Open** the renamed file in any text editor (Notepad, VS Code, TextEdit) and fill in your notes below
-> 4. **Upload** your file to GitHub — go into this session folder on your forked repo, click **Add file → Upload files**, drag in your completed file, then click **Commit changes**
-> 5. **Open a Pull Request** back to the main repo — the facilitator will review your notes before merging
-
----
+# My Notes — Marycynthia Okeke 
 
 ## Key Concepts I Learned
 
-<!-- Write the main ideas covered in today's session -->
-
--
--
--
+- Azure Policy provides governance by ensuring Azure resources comply with organizational standards.
+- Azure Policy has four major effects for handling non-compliant resources:
+  - **Audit** – Detects and reports non-compliant resources without blocking operations.
+  - **Deny** – Prevents the creation or modification of resources that violate a policy.
+  - **DeployIfNotExists** – Automatically deploys required configurations if they are missing.
+  - **Modify** – Automatically adds, updates, or removes properties/tags to enforce standards.
+- Each Azure Policy effect serves a different stage of governance, from monitoring to enforcement and automatic remediation.
+- Role-Based Access Control (RBAC) governance involves not only assigning permissions correctly but also identifying and remediating excessive privileges.
 
 ---
-
 ## Lab / Hands-On Work
-
-<!-- Describe what you did in the lab. Include steps, commands, or screenshots descriptions -->
 
 ### What I did
 
+- Learned how Azure Policy enforces governance across Azure resources.
+- Reviewed the four Azure Policy effects and when each should be used.
+- Studied how to evaluate privileged access using RBAC governance.
+- Explored methods for detecting overprivileged identities using Microsoft Defender for Cloud CSPM and Azure Advisor.
 
 ### What happened / Result
 
+- Understood the differences between Audit, Deny, DeployIfNotExists, and Modify policy effects.
+- Learned how organizations can automatically enforce security standards using Azure Policy.
+- Gained knowledge of common overprivileged access scenarios and the Microsoft tools used to detect them.
 
 ### Challenges I faced
 
+- Understanding when to use each Azure Policy effect in real-world scenarios.
+- Distinguishing between policy enforcement (Azure Policy) and access management (RBAC).
 
 ---
 
 ## My Takeaways
 
-<!-- What was most valuable to you personally from this session? -->
-
+- Azure Policy is a critical governance tool that helps maintain compliance automatically.
+- Organizations should begin with **Audit** to identify issues before moving to **Deny** for strict enforcement.
+- **DeployIfNotExists** and **Modify** reduce manual effort by automatically remediating configuration drift.
+- RBAC governance should include continuous monitoring for excessive permissions, dormant accounts, and guest users with elevated access.
+- Microsoft Defender for Cloud CSPM and Azure Advisor provide valuable insights into identity risks and overprivileged access.
 
 ---
 
 ## Questions I Still Have
 
-<!-- Anything you want to follow up on or ask the mentor -->
-
--
--
+None
 
 ---
 
@@ -58,4 +58,4 @@
 
 ---
 
-*Submitted by: [Your Full Name] · [Your GitHub username]*
+*Submitted by: Marycynthia Okeke · Nechy-Okeke*
