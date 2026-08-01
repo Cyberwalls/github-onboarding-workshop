@@ -186,6 +186,7 @@
       "governance-compliance-pt1-Elu-Emmanuel.md",
       "governance-compliance-pt1-Mathias Eleluwor-template.md",
       "governance-compliance-pt1-Okeke-Marycynthia.md",
+      "governance-compliance-pt1-michael-onwumere.md",
       "governance-compliance-pt1-promise-ibediogwu-ekele.md"
     ]
   },
@@ -195,7 +196,9 @@
     "title": "Governance & Compliance Pt2",
     "date": "25 Jul 2026",
     "status": "upcoming",
-    "submissions": []
+    "submissions": [
+      "governance-compliance-pt2-michael-onwumere.md"
+    ]
   },
   {
     "num": "05",
