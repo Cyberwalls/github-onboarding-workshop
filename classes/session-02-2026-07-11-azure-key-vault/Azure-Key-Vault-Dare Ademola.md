@@ -2,11 +2,6 @@
 
 ## Topic: Secure Azure Key Vault with Defense in Depth (Cloud & AI Workloads)
 
-**Microsoft Learn path:** [Configure and manage secrets in Azure Key Vault](https://learn.microsoft.com/en-us/training/paths/configure-key-vault-security/)
-**Path at a glance:** 4 modules · ~67 minutes core content · 2,600 XP · Intermediate · Security Engineer role
-
----
-
 ### Key Concepts I Learned
 
 #### 1. Defense in depth
@@ -107,10 +102,10 @@ Entirely through the Azure Portal. Target architecture: App/VM → Managed Ident
 6. **Enable monitoring:** **Monitoring → Diagnostic settings** → add a setting, enable **AuditEvent** → send logs to a **Log Analytics workspace**.
 
 **What happened / Result**
-- _To be completed: note what you deployed and verified._
+- Yet to complete the lab due to infrastructure availability
 
 **Challenges I faced**
-- _To be completed._
+- 
 
 ---
 
@@ -124,7 +119,7 @@ Entirely through the Azure Portal. Target architecture: App/VM → Managed Ident
 ---
 
 ### Questions I Still Have
-- _To be completed._
+- N/A
 
 ---
 
