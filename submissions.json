@@ -211,7 +211,9 @@
     "title": "Azure Storage Security",
     "date": "1 Aug 2026",
     "status": "upcoming",
-    "submissions": []
+    "submissions": [
+      "azure-storage-security-michael-onwumere.md"
+    ]
   },
   {
     "num": "06",
