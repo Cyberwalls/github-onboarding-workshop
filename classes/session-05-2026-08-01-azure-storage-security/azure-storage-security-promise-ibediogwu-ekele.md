@@ -1,11 +1,5 @@
 # My Notes — Promise Ibediogwu Ekele
 
-**Session:** Implementing Security for Azure Storage
-**Facilitator:** Oyimafu Emmanuel
-**Bootcamp:** Microsoft Naija Security User Group (MNSUG)
-**Cert Track:** SC-500 — Microsoft Security Engineer
-**GitHub:** https://github.com/promibe
-
 ---
 
 ## Key Concepts I Learned
@@ -69,11 +63,9 @@ I applied the anti-pattern fixes the speaker outlined:
 - **Disabled shared key access** where possible, shifting toward Entra ID authentication
 - **Configured blob soft delete (14 days)** and blob versioning to protect against accidental deletion and overwrites
 
-> 📷 **[INSERT SCREENSHOT HERE: `Shot 2.png` — Storage account Configuration blade showing anonymous access Disabled, TLS 1.2 enforced]**
+![Configuration-blade](evidence/shot 2.png)](https://github.com/promibe/assets/blob/main/shot-2.png)
 
-> 📷 **[INSERT SCREENSHOT HERE: `shot - Data protection.png` — Data protection blade showing soft delete (14 days) and versioning enabled]**
-
----
+![Data protection blade showing soft delete (14 days) and versioning enabled](https://github.com/promibe/assets/blob/main/Shot-12-enabling-versioning-and-soft-delete.png)
 
 #### Step 2 — Implemented Entra ID RBAC at Container Scope
 
