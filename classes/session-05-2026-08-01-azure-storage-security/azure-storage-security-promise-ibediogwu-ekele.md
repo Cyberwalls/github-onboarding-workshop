@@ -63,7 +63,7 @@ I applied the anti-pattern fixes the speaker outlined:
 - **Disabled shared key access** where possible, shifting toward Entra ID authentication
 - **Configured blob soft delete (14 days)** and blob versioning to protect against accidental deletion and overwrites
 
-![Configuration-blade](evidence/shot 2.png)](https://github.com/promibe/assets/blob/main/shot-2.png)
+![Configuration-blade](https://github.com/promibe/assets/blob/main/shot-2.png)
 
 ![Data protection blade showing soft delete (14 days) and versioning enabled](https://github.com/promibe/assets/blob/main/Shot-12-enabling-versioning-and-soft-delete.png)
 
