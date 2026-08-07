@@ -1,4 +1,4 @@
-# My Notes — [REPLACE WITH YOUR FULL NAME]
+# My Notes — [OLAJIDE SAMSON]
 
 > **How to use this file:**
 > 1. **Download** this file to your computer — click the **Raw** button on GitHub, then right-click and *Save As*, OR click the download icon at the top-right of the file view
@@ -16,6 +16,12 @@
 Authentication Methods – Understanding the differences between Single-Factor Authentication (SFA), Multi-Factor Authentication (MFA), and Passwordless Authentication, along with their security benefits.
 Conditional Access Policies – How Conditional Access is used to enforce security controls based on user identity, device state, location, risk level, and other conditions.
 Privileged Identity Management (PIM) – Learning how Microsoft Entra PIM enables just-in-time privileged access, reducing the risk associated with permanently assigned administrative roles.
+-It allows you to build an AI-powered assistant that understands natural language.
+It allows you to build on top of the infrastructure of Microsoft 365 Copilot.
+It allows you to use instructions to optimize the assistant to your scenario.
+It allows you to connect the assistant to the repairs management system so that it can answer authoritatively.
+-
+-
 
 ---
 
@@ -63,6 +69,7 @@ Today's session strengthened my understanding of identity security and access ma
 Microsoft Learn documentation on Microsoft Entra ID.
 Microsoft Learn modules on Conditional Access, Multi-Factor Authentication, and Privileged Identity Management.
 YouTube tutorials recommended during the session for additional practical demonstrations.
+-API KEYS
 
 ---
 
