@@ -56,7 +56,7 @@ Following the session demonstration, I applied the security concepts directly to
 
 #### Step 1 — Hardened the Storage Account Baseline
 
-I applied the anti-pattern fixes the speaker outlined:
+I applied the anti-pattern fixes our mentor outlined:
 
 - **Disabled anonymous blob access** — every request must present a valid credential
 - **Enforced HTTPS-only** with TLS 1.2 minimum
@@ -76,7 +76,7 @@ Rather than using storage account keys for internal staff access, I created Entr
 
 **Why container scope matters:** Assigning at account scope grants access to all containers — audit-reports, archive-records — regardless of role. Container scope enforces least privilege at the resource level, which the speaker identified as a core defense-in-depth principle.
 
-> 📷 **[INSERT SCREENSHOT HERE: `Shot 4 - RBAC assignment.png` — Container IAM blade showing group role assignments at container scope. Note the breadcrumb confirms this is the container level, not the account level]**
+![Container IAM blade showing group role assignments at container scope.](https://github.com/promibe/assets/blob/main/shot-4-RBAC-assignment.png)
 
 ---
 
@@ -87,9 +87,9 @@ The speaker's most important point: **security must be verified through what it 
 - Reader user downloads a file → ✅ Allowed
 - Reader user attempts upload → ❌ `AuthorizationPermissionMismatch` — role does not permit write
 
-> 📷 **[INSERT SCREENSHOT HERE: `Shot 5 - Ada successfully downloaded the file.png` — Reader user downloading a file successfully]**
+![Reader user downloading a file successfully](https://github.com/promibe/assets/blob/main/shot-5-Ada-successfully-downloaded-the-file.png)
 
-> 📷 **[INSERT SCREENSHOT HERE: `Shot 6 - Ada unable to upload a file.png` — Reader user denied on upload — error visible in portal]**
+![Reader user denied on upload — error visible in portal](https://github.com/promibe/assets/blob/main/shot-6-Ada-unable-to-upload-a-file.png)
 
 ---
 
@@ -101,26 +101,26 @@ I generated a **Service SAS** backed by a stored access policy named `auditor-q3
 
 **Testing read-only enforcement (R4):**
 
-> 📷 **[INSERT SCREENSHOT HERE: `Shot 9 - Accessing the blob container with storage explorer.png` — Azure Storage Explorer connected via SAS token. No Azure login — anonymous, account-less access. Activity log confirms "used SAS, discovery completed"]**
+![Azure Storage Explorer connected via SAS token. No Azure login — anonymous, account-less access. Activity log confirms "used SAS, discovery completed"](https://github.com/promibe/assets/blob/main/Shot-9-Accessing-the-blob-container-with-storage-explorer.png)
 
 **Write attempt blocked:**
 
-> 📷 **[INSERT SCREENSHOT HERE: `Shot 10b - failed to copy file into the blob container using Azcopy.png` — AzCopy upload attempt: RESPONSE 403 AuthorizationPermissionMismatch. Total bytes transferred: 0. Least privilege enforced]**
+![AzCopy upload attempt: RESPONSE 403 AuthorizationPermissionMismatch. Total bytes transferred: 0. Least privilege enforced](https://github.com/promibe/assets/blob/main/Shot-10b-failed-to-copy-file-into-the-blob-container-using-Azcopy.png)
 
 **The kill switch — policy deleted:**
 
-> 📷 **[INSERT SCREENSHOT HERE: `Shot 11 - failed to download file after deleting the access policy.png` — Same SAS token after stored access policy deleted: ERROR CODE: AuthenticationFailed. "SAS identifier cannot be found for specified signed identifier." Instant revocation without rotating account keys]**
+![Same SAS token after stored access policy deleted: ERROR CODE: AuthenticationFailed. "SAS identifier cannot be found for specified signed identifier." Instant revocation without rotating account keys](https://github.com/promibe/assets/blob/main/Shot-11-failed-to-download-file-after-deleting-the-access-policy.png)
 
 ---
 
 #### Step 5 — Lifecycle Management for Cost-Aligned Data Tiering
 
-The speaker covered storage redundancy options (LRS, ZRS, GZRS) and the importance of aligning cost to access frequency. I implemented this through lifecycle management rules on the archive container:
+Mr Emmanuel covered storage redundancy options (LRS, ZRS, GZRS) and the importance of aligning cost to access frequency. I implemented this through lifecycle management rules on the archive container:
 
 - Not modified in 90 days → Cool tier
 - Not modified in 365 days → Archive tier
 
-> 📷 **[INSERT SCREENSHOT HERE: `Shot 14 - Lifecycle management.png` — Lifecycle rule showing the tiering conditions and the JSON policy code view]**
+![Lifecycle rule showing the tiering conditions and the JSON policy code view](https://github.com/promibe/assets/blob/main/Shot-14-Lifecycle-management.png)
 
 ---
 
